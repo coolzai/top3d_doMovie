@@ -11,7 +11,7 @@
     94 if displayflag, clf; display_3D(xPhys); end %#ok<UNRCH>
     95 save(['xPhys_it',num2str(loop,'%03d'),'.mat'], 'xPhys');
     ```
-    
+
 2. Save the `doMovie.m` under the save directory as `top3d.m`
 3. Run `doMovie.m`
 
